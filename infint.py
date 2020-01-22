@@ -2,26 +2,6 @@
 # To change this template file, choose Tools | Templates
 # and open the template in the editor.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     class Node: 
 
@@ -158,23 +138,31 @@ list2 = LinkedList()
 
 
 
-sum = LinkedList()
-
-sum.addTwoLists(list1.head, list2.head)
-sum.reverse()
-#sum.printList()
-print("Welcome to my Python Infinity addition Calculator!")
-
-while True:
-       print("Here are your instructions!")  
-       print("1. Add an element")
+#sum = LinkedList()
+#
+#sum.addTwoLists(list1.head, list2.head)
+#sum.reverse()
+##sum.printList()
+#print("Welcome to my Python Infinity addition Calculator!")
+#
+#while True:
+#       print("Here are your instructions!")  
+#       print("1. Add an element")
 #       print("2. Print the list")
 #       print("3. Size of the list")
-       menu = int(input("Choose an action:"))
+#       menu = int(input("Choose an action:"))
+#
+#       if menu == 1:
+#               list1.insert()
+#       elif menu == 2:
+#               MyList.print()
+#       elif menu == 3:
+#               MyList.size()
+               
+###############################Code for Parsing Strings Below############
 
-       if menu == 1:
-               list1.insert()
-       elif menu == 2:
-               MyList.print()
-       elif menu == 3:
-               MyList.size()
+file1 = open("tc1.txt","r+")  
+  
+print "Output of Read function is "
+print file1.read() 
+print
